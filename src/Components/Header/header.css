@@ -15,25 +15,27 @@
     left: 15%;
 }
 
-.header .header__options ul {
+/* .header .header__options ul li {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-around;
     list-style: none;
 
-}
-.header .header__options ul li {
+} */
+.header .header__fadeTop .header__options ul li {
   text-decoration: none;
   color: white;
 font-size: 1.5rem;
-  	/* display: inline-block; */
+  	display: inline-block;
   padding: 14px 0 8px;
+  margin: 0 30px;
   height: 25px;
   cursor: pointer;
+  list-style: none;
  
 }
-.header__option {
-
+.header__options {
+display: flex;
 }
 
 .banner__button {
@@ -55,3 +57,14 @@ font-size: 1.5rem;
   background-color: #e6e6e6;
   transition: all 0.2s;
 }
+
+/* .header__fadeTop {
+  height: 5.4rem;
+  background-image: linear-gradient(
+    50deg,
+    transparent,
+    rgb(37, 37, 37, 0.61),
+    
+    #111
+  );
+} */

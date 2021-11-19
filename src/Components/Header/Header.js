@@ -5,7 +5,7 @@ import "./header.css"
 const Header = () => {
     return (
       <div className="header">
-        {/* <div className="header__fadeTop"> */}
+        <div className="header__fadeTop">
         <div className="header__options">
           <ul>
             <Link to="/">
@@ -22,7 +22,7 @@ const Header = () => {
           <div className="header__buttonOptions">
           <button className="header__button">Donate</button>
           <button className="header__button">Sign In</button>
-          {/* </div> */}
+          </div>
         </div>
         </div>
         
