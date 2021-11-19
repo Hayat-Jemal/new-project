@@ -10,16 +10,16 @@
   transition: all 0.5s;
   transition-timing-function: ease-in;
 }
-.nav__black {
-  background-color: #111;
+.nav__white {
+  background-color:white;
 }
 .nav__logo {
   position: fixed;
-  left: 20px;
-  width: 80px;
+  left: 100px;
+  width: 65px;
   object-fit: contain;
 }
-.nav__avatar {
+.nav__donate {
   position: fixed;
   right: 20px;
   width: 30px;

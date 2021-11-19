@@ -1,6 +1,7 @@
 import './App.css';
-import Home from './Components/Home/Home';
+// import Home from './Components/Home/Home';
 import React from "react";
+import Header from "./Components/Header/Header";
 import {
   BrowserRouter as Router,
   Routes,
@@ -9,15 +10,18 @@ import {
   // useRouteMatch,
   // useParams,
 } from "react-router-dom";
-import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import Nav from './Components/Nav/Nav';
+
 function App() {
   return (
     <Router>
       <div className="App">
+        <Nav/>
         <Header />
         <Routes>
-          <Route exact path="/">
-            <Home />
+          <Route exact path="/" element={<Home />}>
+            {/* <Home /> */}
           </Route>
           {/* <Route path="/product/:id">
             <Product />
@@ -28,7 +32,6 @@ function App() {
           <Route path="/checkout">
             <Checkout />
           </Route> */}
-          
         </Routes>
       </div>
     </Router>

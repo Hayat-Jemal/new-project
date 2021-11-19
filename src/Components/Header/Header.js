@@ -4,27 +4,28 @@ import { Link } from 'react-router-dom';
 import "./header.css"
 const Header = () => {
     return (
-        <div className="home__options">
-            {/* <img src={logo} alt="" /> */}
-        <ul>
-          <Link to="/">
-            <li>Home</li>
-          </Link>
-          <Link to="/about">
-            <li>About</li>
-          </Link>
+      <div className="header">
+        {/* <div className="header__fadeTop"> */}
+        <div className="header__options">
+          <ul>
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            <Link to="/about">
+              <li>About</li>
+            </Link>
 
-          <li>Mission</li>
-          <li>Our work</li>
-          <li>Donate</li>
-        </ul>
-        <div className="header__option">
-          <span
-            className="header__optionLineone">Donate</span>
-          <span className="header__optionLineTwo">
-            Sign In
-          </span>
+            <li>Mission</li>
+            <li>Our work</li>
+            <li>Donate</li>
+          </ul>
+          <div className="header__buttonOptions">
+          <button className="header__button">Donate</button>
+          <button className="header__button">Sign In</button>
+          {/* </div> */}
         </div>
+        </div>
+        
       </div>
     );
 }
