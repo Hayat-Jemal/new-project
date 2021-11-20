@@ -1,6 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./home.css";
+import HomeContent from "./HomeContent/HomeContent";
 
 const Home = () => {
   return (
@@ -11,15 +12,16 @@ const Home = () => {
         muted
         style={{
           // position: "absolute",
-          // width: "100%",
+          width: "100%",
           // left: "50%",
           // top:"50%",
           // bottom: "50%",
-          height: "90%",
-          objectFit: "cover",
+          // height: "90%",
+          // objectFit: "cover",
           transform: "translate(0%,-30%)",
-            zIndex: "-1",
-        //   opacity: "0.9"
+          // marginBottom:"50px"
+          //   opacity: "0.9"
+          zIndex:"1",
         }}
       >
         <source
@@ -27,9 +29,7 @@ const Home = () => {
           type="video/mp4"
         ></source>
       </video>
-      <div className="home__contents">
-        <h1 className="home__title">Let's Shine their Ability</h1>
-      </div>
+     <HomeContent/>
     </div>
   );
 };

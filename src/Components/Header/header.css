@@ -9,10 +9,10 @@
   /* justify-content: space-between;  */
   transition: all 0.5s;
   transition-timing-function: ease-in;
-   /* width: 960px; */
-    margin: 0 auto;
-    padding: 0 10px;
-    left: 15%;
+  /* width: 960px; */
+  margin: 0 auto;
+  padding: 0 10px;
+  left: 15%;
 }
 
 /* .header .header__options ul li {
@@ -25,37 +25,39 @@
 .header .header__fadeTop .header__options ul li {
   text-decoration: none;
   color: white;
-font-size: 1.5rem;
-  	display: inline-block;
+  font-size: 1.2rem;
+  display: inline-block;
   padding: 14px 0 8px;
   margin: 0 30px;
   height: 25px;
   cursor: pointer;
   list-style: none;
- 
 }
 .header__options {
-display: flex;
+  display: flex;
 }
 
-.banner__button {
+.header__button {
   cursor: pointer;
   color: #fff;
   outline: none;
   border: none;
+  font-size: 1.2em;
   font-weight: 700;
   border-radius: 0.2vw;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-right: 1rem;
-  padding-top: 0.5rem;
+  margin-top: 1.1rem;
+  padding-top: 0.6rem;
   padding-bottom: 0.5rem;
   background-color: rgba(51, 51, 51, 0.5);
 }
-.banner__button:hover {
+.header__button:hover {
   color: #000;
   background-color: #e6e6e6;
   transition: all 0.2s;
+  /* background-color: #003366; */
 }
 
 /* .header__fadeTop {
@@ -68,3 +70,6 @@ display: flex;
     #111
   );
 } */
+.header__buttons {
+  margin-left: 200px;
+}

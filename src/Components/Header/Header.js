@@ -19,7 +19,7 @@ const Header = () => {
             <li>Our work</li>
             <li>Donate</li>
           </ul>
-          <div className="header__buttonOptions">
+          <div className="header__buttons">
           <button className="header__button">Donate</button>
           <button className="header__button">Sign In</button>
           </div>
