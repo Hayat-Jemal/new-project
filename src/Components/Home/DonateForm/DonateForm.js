@@ -12,6 +12,9 @@ const DonateForm = () => {
           <form action="">
             <input type="text" placeholder="$10GBP/mo" />
             <input type="text" name="" id="" placeholder="$20GBP/mo" />
+            <input type="text" name="" id="" placeholder="$40GBP/mo" />
+            <input type="text" name="" id="" placeholder="$100GBP/mo" />
+            <input type="text" name="" id="" placeholder="Other amount" />
           </form>
         </div>
       </div>
