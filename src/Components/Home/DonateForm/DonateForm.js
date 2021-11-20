@@ -14,7 +14,8 @@ const DonateForm = () => {
             <input type="text" name="" id="" placeholder="$20GBP/mo" />
             <input type="text" name="" id="" placeholder="$40GBP/mo" />
             <input type="text" name="" id="" placeholder="$100GBP/mo" />
-            <input type="text" name="" id="" placeholder="Other amount" />
+                    <input type="text" name="" id="" placeholder="Other amount" />
+                    <button>DONATE MONTHLY</button>
           </form>
         </div>
       </div>
