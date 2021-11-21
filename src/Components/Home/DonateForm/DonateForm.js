@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./donateForm.css"
 const DonateForm = () => {
     return (
@@ -12,6 +13,7 @@ const DonateForm = () => {
         <div className="form__wrapper">
           <div className="form__header">Choose an amount to give per month</div>
           <form action="">
+           
             <input type="text" placeholder="$10GBP/mo" />
             <input type="text" name="" id="" placeholder="$20GBP/mo" />
             <input type="text" name="" id="" placeholder="$40GBP/mo" />
@@ -23,7 +25,9 @@ const DonateForm = () => {
               placeholder="Other amount"
               className="input__otherAmount"
             />
+             <Link to="/ceckout">
             <button className="donation__button">DONATE MONTHLY</button>
+          </Link>
           </form>
         </div>
       </div>

@@ -12,12 +12,13 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Nav from './Components/Nav/Nav';
+import Checkout from './Components/Checkout/Checkout';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Nav/>
+        <Nav />
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />}>
@@ -27,11 +28,10 @@ function App() {
             <Product />
           </Route>
           <Route path="/cart">
-            <Cart />
-          </Route>
-          <Route path="/checkout">
-            <Checkout />
+            <C />
           </Route> */}
+          <Route path="/" element={<Checkout />}>
+          </Route>
         </Routes>
       </div>
     </Router>
