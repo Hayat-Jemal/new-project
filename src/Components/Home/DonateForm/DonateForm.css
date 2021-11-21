@@ -1,5 +1,5 @@
 .donateForm__conainer {
-  width: 400px;
+  width: 450px;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 }
 .donate__subscription {
   display: inline-block;
-  width: 400px;
+  width: 450px;
   border: 1px solid lightgray;
   border-radius: 5px;
   /* padding:1px 1px; */
@@ -24,6 +24,8 @@
   height: 40px;
   border: none;
   font-weight: 700;
+  cursor: pointer;
+  font-size: 17px;
 }
 .donate__oneTime {
   background-color: white;
@@ -40,20 +42,23 @@
   /* padding: 0 10px 0 10px; */
 }
 .form__header {
-  border-bottom: 1px solid #dfdfd7;
+  /* border-bottom: 1px solid #dfdfd7; */
   background-color: #f4f5f0;
-  padding: 18px 20px;
+  padding: 20px 0px;
   font-size: 20px;
   text-align: center;
- 
+  width: 450px;
+ border-radius: 5px;
+ border-top-left-radius:  1px solid #dfdfd7;
  
 }
 .form__wrapper > form {
     background-color: white;
+    padding-left: 20px;
 }
 .form__wrapper > form > input{
     margin: 20px 10px 0px 10px;
-width: 80px;
+width: 85px;
 padding: 15px 15px;
 border: none;
 background-color: #e9eae4;
@@ -66,7 +71,35 @@ background-color:whitesmoke;
 transition: all 0.2s;
 }
 .input__otherAmount{
-    background-color: tomato;
-    width: 210px !important;
-    
+    width: 220px !important;
 }
+.donation__button{ 
+    background-color: #036;
+    width: 90%;
+    padding: 15px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+color: white;
+margin: 20px 10px 0px 10px;
+font-size: 20px;
+font-weight: 700;
+border-bottom-width: 1px solid gray;
+}
+
+.donation__text{
+    margin-right: 10px;
+padding: 15px;
+font-size: 1em;
+text-align: center;
+}
+
+.donation__secure{
+    display: flex;
+    color: #9b9b94;
+    margin: 5px 30px;
+    font-size: 12px;
+}
+
+

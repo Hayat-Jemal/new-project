@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../About/About";
 import DonateForm from "./DonateForm/DonateForm";
 // import { Link } from "react-router-dom";
 import "./home.css";
@@ -34,7 +35,7 @@ const Home = () => {
         <HomeContent />
         <DonateForm />
       </div>
-     
+     <About/>
     </div>
   );
 };

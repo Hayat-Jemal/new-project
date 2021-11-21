@@ -12,7 +12,8 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Nav from './Components/Nav/Nav';
-import Checkout from './Components/Checkout/Checkout';
+import OurWork from './Components/OurWork/OurWork';
+import About from './Components/About/About';
 
 function App() {
   return (
@@ -26,12 +27,9 @@ function App() {
           </Route>
           {/* <Route path="/product/:id">
             <Product />
-          </Route>
-          <Route path="/cart">
-            <C />
           </Route> */}
-          <Route path="/" element={<Checkout />}>
-          </Route>
+          {/* <Route exact path="/about" element={<About />}></Route> */}
+          <Route exact path="/ourWork" element={<OurWork />}></Route>
         </Routes>
       </div>
     </Router>
