@@ -3,3 +3,7 @@
      height: 448px;
 z-index: -1;
 }
+.home__towComponents{
+    display: flex;
+    justify-content: space-between;
+}

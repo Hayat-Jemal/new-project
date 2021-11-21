@@ -1,4 +1,5 @@
 import React from "react";
+import DonateForm from "./DonateForm/DonateForm";
 // import { Link } from "react-router-dom";
 import "./home.css";
 import HomeContent from "./HomeContent/HomeContent";
@@ -21,7 +22,7 @@ const Home = () => {
           transform: "translate(0%,-30%)",
           // marginBottom:"50px"
           //   opacity: "0.9"
-          zIndex:"1",
+          zIndex: "1",
         }}
       >
         <source
@@ -29,7 +30,11 @@ const Home = () => {
           type="video/mp4"
         ></source>
       </video>
-     <HomeContent/>
+      <div className="home__towComponents" >
+        <HomeContent />
+        <DonateForm />
+      </div>
+     
     </div>
   );
 };
