@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About/About";
+import OurWork from "../OurWork/OurWork";
 import DonateForm from "./DonateForm/DonateForm";
 // import { Link } from "react-router-dom";
 import "./home.css";
@@ -20,7 +21,7 @@ const Home = () => {
           // bottom: "50%",
           // height: "90%",
           // objectFit: "cover",
-          transform: "translate(0%,-30%)",
+          // transform: "translate(0%,-30%)",
           // marginBottom:"50px"
           //   opacity: "0.9"
           zIndex: "1",
@@ -31,11 +32,12 @@ const Home = () => {
           type="video/mp4"
         ></source>
       </video>
-      <div className="home__towComponents" >
+      <div className="home__towComponents">
         <HomeContent />
         <DonateForm />
       </div>
-     <About/>
+      <OurWork/>
+      {/* <About /> */}
     </div>
   );
 };
