@@ -1,8 +1,13 @@
 import React from 'react'
 import "./ourWork.css";
-const OurWork = ({ image, title, description }) => {
+import OurWorkDetail from './OurWorkDetail/OurWorkDetail';
+import image1 from "../Images/CP1.jpg";
+import image2 from "../Images/CP2.jpg";
+import image3 from "../Images/CP3.jpg";
+
+const OurWork = () => {
   return (
-    <div>
+    <div className="ourWork__wrapper">
       <div className="ourWork">
         <p className="title">Our Work</p>
         <p className="ourWork__goal">
@@ -11,10 +16,22 @@ const OurWork = ({ image, title, description }) => {
           communities.
         </p>
       </div>
-      <div>
-        <img src={image} alt={title} />
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className="ourWork__row">
+        <OurWorkDetail
+          image={image1}
+          title="School Breakfast"
+          description="Each school day, the School Breakfast Program provides a nutritious morning meal for 31 students."
+        />
+        <OurWorkDetail
+          image={image2}
+          title="RCA Technology Camp"
+          description="Raeye Children Aid (RCA) Technology Training teaches computer programming skills through fun and exciting ways. RCA Tech training is perfect for kids to expand their creativity and build confidence as they learn to problem-solve through coding."
+        />
+        <OurWorkDetail
+          image={image3}
+          title="RESPOND TO COVID-19"
+          description="We are responding to COVID-19 by feeding people in need. You can help.Donate"
+        />
       </div>
     </div>
   );
