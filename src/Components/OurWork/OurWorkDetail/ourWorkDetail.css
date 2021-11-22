@@ -1,24 +1,29 @@
 .ourWorkDetail__container{
-   width: 100%;
+   /* width: 100%; */
    display: flex;
    flex-direction: column;
    /* background-color: #f7fcff */
 background-color: yellow;
-
+ left: 200px;
 }
 .ourWorkDetail__container > img {
-  max-height: 200px;
-  width: 100%;
+ height: 300px;
+  /* width: 100%; */
   object-fit: contain;
   margin-bottom: 15px;
 }
 .ourWorkDetail__content{
-
-}
-
-
-
-.ourWorkDetail__description{
-     max-width: 570px;
+ max-width: 400px;
   height: 80px;
+  text-align: center;
 }
+
+.ourWorkDetail__title{
+
+}
+
+/* .ourWorkDetail__description{
+     max-width: 200px;
+  height: 80px;
+  text-align: center;
+} */
