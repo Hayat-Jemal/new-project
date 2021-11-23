@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About/About";
+import CampainVideo from "../CampainVideo/CampainVideo";
 import OurWork from "../OurWork/OurWork";
 import DonateForm from "./DonateForm/DonateForm";
 // import { Link } from "react-router-dom";
@@ -19,9 +20,9 @@ const Home = () => {
           // left: "50%",
           // top:"50%",
           // bottom: "50%",
-          // height: "90%",
+          height: "90%",
           // objectFit: "cover",
-          // transform: "translate(0%,-30%)",
+          transform: "translate(0%,-30%)",
           // marginBottom:"50px"
           //   opacity: "0.9"
           zIndex: "1",
@@ -36,7 +37,12 @@ const Home = () => {
         <HomeContent />
         <DonateForm />
       </div>
-     <OurWork/>
+      <div>
+        <OurWork />
+      </div>
+      <div>
+        <CampainVideo />
+      </div>
     </div>
   );
 };

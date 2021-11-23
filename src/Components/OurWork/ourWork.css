@@ -1,38 +1,40 @@
 
 .ourWork__wrapper{
- 
-  
+ background-color: #f7fcff;
+ position: relative;
+ /* top: 100px; */
+ margin-top: -220px;
 }
 
 
 
 
-.title{
+.ourWork__ourWork{
   text-align:center;
 font-size: 15px;
 color: #77a8bb;
 margin-top: 30px;
+ font-weight: 700;
 }
-.ourWork__goal{
+.ourWork__title{
  
-  font-size: 25px;
+  font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 right: -400px;
 text-align: center;
  width: 600px;
  margin-left: 540px;
- font-family: 700;
+ font-weight: 600;
 }
 .ourWork__row{
   max-width: 1060px;
   display: flex;
   justify-content: space-between;
-align-items: center;
-z-index: 1;
+/* align-items: center; */
+/* z-index: 1; */
   /* margin-left: 5px; */
   margin-right: 5px;
-  /* background-color: tomato; */
    /* background-color: #f7fcff; */
- margin-left: 185px;
+ margin-left: 160px;
  margin-top: 60px;
 }

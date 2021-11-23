@@ -2,21 +2,21 @@
    /* width: 100%; */
    display: flex;
    flex-direction: column;
-  
 /* background-color: yellow; */
- /* left: 200px; */
+ left: 200px;
  margin-left: 25px;
 }
 .ourWorkDetail__container > img {
- height: 300px;
+ height: 330px;
   /* width: 100%; */
   object-fit: contain;
   margin-bottom: 15px;
 }
 .ourWorkDetail__content{
  max-width: 400px;
-  height: 80px;
+  height: 230px;
   text-align: center;
+ 
 }
 
 .ourWorkDetail__title{
@@ -29,4 +29,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .ourWorkDetail__description{
    font-size: 1rem;
    line-height: 1.3;
+   /* background-color: #f7fcff; */
+  
 }

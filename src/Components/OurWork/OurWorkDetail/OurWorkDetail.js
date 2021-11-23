@@ -1,6 +1,8 @@
-import React from 'react'
+import React from "react";
 import "./ourWorkDetail.css";
-const OurWorkDetail = ({ image, title, description }) => {
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+const OurWorkDetail = ({ image, image2, image3, title, description }) => {
   return (
     <div className="ourWorkDetail__container">
       <img src={image} alt={title} />
@@ -12,4 +14,4 @@ const OurWorkDetail = ({ image, title, description }) => {
   );
 };
 
-export default OurWorkDetail
+export default OurWorkDetail;

@@ -1,16 +1,18 @@
-import React from 'react'
+import React from "react";
 import "./ourWork.css";
-import OurWorkDetail from './OurWorkDetail/OurWorkDetail';
+import OurWorkDetail from "./OurWorkDetail/OurWorkDetail";
 import image1 from "../Images/CP1.jpg";
 import image2 from "../Images/CP2.jpg";
 import image3 from "../Images/CP3.jpg";
+import image4 from "../Images/CP4.jpg";
+
 
 const OurWork = () => {
   return (
     <div className="ourWork__wrapper">
       <div className="ourWork">
-        <p className="title">Our Work</p>
-        <p className="ourWork__goal">
+        <p className="ourWork__ourWork">Our Work</p>
+        <p className="ourWork__title">
           Our goal is to help the children develop the skills needed to succeed
           in school, obtain strong careers, and be active participants in their
           communities.
@@ -22,6 +24,7 @@ const OurWork = () => {
           title="School Breakfast"
           description="Each school day, the School Breakfast Program provides a nutritious morning meal for 31 students."
         />
+
         <OurWorkDetail
           image={image2}
           title="RCA Technology Camp"
