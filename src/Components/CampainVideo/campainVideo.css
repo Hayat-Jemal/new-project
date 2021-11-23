@@ -1,6 +1,12 @@
 .campainVideo > button {
-   left: 200px;
+   left: 800px;
     /* text-align: center; */
     color: blue;
     position:relative;
+    /* height: 45px; */
+    font-size: 15px;
+    color: #036;
+    font-weight: 500;
+    padding: 10px 20px;
+    
 }
