@@ -2,10 +2,10 @@ import React from 'react'
 import "./aboutVideo.css"
 const AboutVideo = () => {
     return (
-      <div>
+      <div className="video__wrapper">
         <iframe
-          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCleverProgrammerr%2Fvideos%2F361140252307098%2F&show_text=false&width=560&t=0"
-          width="340"
+          src="https://www.youtube.com/embed/zeMr55Mxffc?autoplay=0&mute=0&color=red&controls=1&loop=0&rel=0&start=0&cc_load_policy=0&iv_load_policy=3"
+          width="550"
           height="100%"
           style={{ border: "none", overflow: "hidden" }}
           scrolling="no"

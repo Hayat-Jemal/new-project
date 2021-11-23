@@ -1,7 +1,17 @@
-.about{
-    max-width: 960px;
+.about__wrapper{
+    /* max-width: 960px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* left: 100px; */
+    top: 70px;
 }
-
+.about__content{
+    width: 50%;
+padding: 0 30px;
+margin: 0 20px 0 130px;
+}
 
 .about__about{
   /* text-align:center; */
@@ -13,10 +23,12 @@ margin-top: 30px;
 .about__title{
     font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-/* right: -400px; */
-/* text-align: center; */
- /* width: 600px; */
- /* margin-left: 540px; */
  font-weight: 600;
 }
+.about__video{
+    width: 50%;
+}
 
+.about__learnMore{
+    color: #003366;
+}

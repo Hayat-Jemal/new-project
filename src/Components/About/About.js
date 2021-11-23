@@ -4,7 +4,7 @@ import AboutVideo from './AboutVideo/AboutVideo';
 const About = () => {
     return (
       <div className="about__wrapper">
-        <div>
+        <div className="about__content">
           <p className="about__about">About us</p>
           <p className="about__title">
             Raeye Children Aid (RCA) is a non-profit organization that was
@@ -23,10 +23,11 @@ const About = () => {
             to succeed in school, obtain strong careers, and be active
             participants in their communities.
           </p>
-            </div>
-            <div>
-                <AboutVideo/>
-            </div>
+          <p className="about__learnMore">LEARN MORE</p>
+        </div>
+        <div className="about__video">
+          <AboutVideo />
+        </div>
       </div>
     );
 }
