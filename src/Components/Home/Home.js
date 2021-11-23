@@ -37,12 +37,12 @@ const Home = () => {
         <HomeContent />
         <DonateForm />
       </div>
-      <div>
+     
         <OurWork />
-      </div>
-      <div>
+     
         <CampainVideo />
-      </div>
+     <About/>
+
     </div>
   );
 };
