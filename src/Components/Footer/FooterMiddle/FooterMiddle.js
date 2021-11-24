@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./footerMiddle.css";
 const FooterMiddle = () => {
     return (
-      <div className="FooterMiddle">
+      <div className="footerMiddle">
         <ul>
           <h3>get to know us</h3>
           <li>about us</li>
@@ -22,14 +22,15 @@ const FooterMiddle = () => {
           fundraise
           </li>
           <li>brand partnerships</li>
-          <li></li>
-          <li></li>
+          <li>legacy giving</li>
+          <li>students & teachers</li>
         </ul>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+            <ul>
+                <h3>donate</h3>
+          <li>join the spring</li>
+          <li>give to a campaign</li>
+          <li>give in someone's honor</li>
+          <li>sponsor a community</li>
         </ul>
       </div>
     );

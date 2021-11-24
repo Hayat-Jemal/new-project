@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import FooterLast from "./FooterLast/FooterLast";
+import FooterMiddle from "./FooterMiddle/FooterMiddle";
 const Footer = () => {
   return (
     <div className="footer__container">
@@ -23,6 +25,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <FooterMiddle />
+      <FooterLast/>
     </div>
   );
 };
