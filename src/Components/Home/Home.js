@@ -1,12 +1,13 @@
 import React from "react";
 import About from "../About/About";
 import CampainVideo from "../CampainVideo/CampainVideo";
+import Member from "../Member/Member";
 import OurWork from "../OurWork/OurWork";
 import DonateForm from "./DonateForm/DonateForm";
 // import { Link } from "react-router-dom";
 import "./home.css";
 import HomeContent from "./HomeContent/HomeContent";
- 
+
 const Home = () => {
   return (
     <div className="home">
@@ -37,12 +38,10 @@ const Home = () => {
         <HomeContent />
         <DonateForm />
       </div>
-     
-        <OurWork />
-     
-        <CampainVideo />
-     <About/>
-
+      <OurWork />
+      <CampainVideo />
+      <About />
+      <Member />
     </div>
   );
 };
