@@ -21,7 +21,7 @@ const Member = () => {
            
            <p onClick={() => {navigate("/about")}} className="member__lineone">Make a One-Time Gift
                     </p>
-            <p></p>
+            <p>Make a Recurring Gift</p>
           </div>
         </div>
       </div>

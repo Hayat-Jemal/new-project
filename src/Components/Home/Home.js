@@ -7,6 +7,7 @@ import DonateForm from "./DonateForm/DonateForm";
 // import { Link } from "react-router-dom";
 import "./home.css";
 import HomeContent from "./HomeContent/HomeContent";
+import Footer from "../Footer/Footer"
 
 const Home = () => {
   return (
@@ -41,7 +42,8 @@ const Home = () => {
       <OurWork />
       <CampainVideo />
       <About />
-      <Member />
+      {/* <Member/> */}
+      <Footer />
     </div>
   );
 };
