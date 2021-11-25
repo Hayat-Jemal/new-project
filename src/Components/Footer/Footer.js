@@ -17,7 +17,7 @@ const Footer = () => {
             <input type="password" placeholder="Last name" />
             <input type="password" placeholder="Email" />
 
-            <button type="submit">SUBACRIBE</button>
+            <button type="submit">SUBSCRIBE</button>
           </form>
           <p className="footer__bottomText">
             This site is protected by reCAPTCHA and the Google Privacy Policy
