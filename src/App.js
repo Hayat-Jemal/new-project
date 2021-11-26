@@ -23,11 +23,7 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />}>
-            {/* <Home /> */}
           </Route>
-          {/* <Route path="/product/:id">
-            <Product />
-          </Route> */}
           {/* <Route exact path="/about" element={<About />}></Route> */}
           {/* <Route exact path="/ourWork" element={<OurWork />}></Route> */}
         </Routes>

@@ -1,14 +1,11 @@
 .ourWorkDetail__container{
-   /* width: 100%; */
    display: flex;
    flex-direction: column;
-/* background-color: yellow; */
  left: 200px;
  margin-left: 25px;
 }
 .ourWorkDetail__container > img {
  height: 330px;
-  /* width: 100%; */
   object-fit: contain;
   margin-bottom: 15px;
 }
@@ -29,6 +26,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .ourWorkDetail__description{
    font-size: 1rem;
    line-height: 1.3;
-   /* background-color: #f7fcff; */
+
   
 }

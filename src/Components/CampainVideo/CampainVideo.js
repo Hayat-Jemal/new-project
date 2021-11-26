@@ -26,9 +26,7 @@ const CampainVideo = () => {
             type="video/mp4"
           ></source>
         </video>
-        {/* <div> */}
           <button>GET INVOLVED</button>
-        {/* </div> */}
       </div>
     );
 }

@@ -14,7 +14,7 @@ const Header = () => {
               </Link>
 
               <li>About</li>
-              {/* <li onClick={() => history.replace("/")}>About</li> */}
+              {/* <li onClick={() => history.push("/about")}>About</li> */}
 
               <li>Mission</li>
               <li>Our work</li>

@@ -18,7 +18,6 @@ function Nav() {
     <div className={`nav ${show && "nav__white"}`}>
       <img className="nav__logo" src={logo} alt="RCA Logo" />
       <div className="nav__donate">
-        {/* <p>Donate</p> */}
       </div>
     </div>
   );
